@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us - InsTuite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#04a888',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-primary">InsTuite</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="index.html" class="text-gray-700 hover:text-primary font-medium">Home</a>
+                        <a href="why-choose-us.html" class="text-primary font-medium">Why Choose Us</a>
+                        <a href="services.html" class="text-gray-700 hover:text-primary font-medium">Services</a>
+                        <a href="enroll.html" class="text-gray-700 hover:text-primary font-medium">Enroll Now</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-primary font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:text-primary">Home</a>
+            <a href="why-choose-us.html" class="block py-2 px-4 text-sm text-primary font-medium">Why Choose Us</a>
+            <a href="services.html" class="block py-2 px-4 text-sm hover:text-primary">Services</a>
+            <a href="enroll.html" class="block py-2 px-4 text-sm hover:text-primary">Enroll Now</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:text-primary">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-primary/10 to-primary/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Why Choose InsTuite?</h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-8">Discover what makes us the preferred choice for aspiring tech professionals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-12 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Industry Expert Mentors -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-user-tie text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Industry Expert Mentors</h3>
+                    <p class="text-gray-600">Learn directly from professionals who are currently working in leading tech companies. Get real-world insights and industry best practices.</p>
+                </div>
+
+                <!-- Live Projects -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-laptop-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Live Projects</h3>
+                    <p class="text-gray-600">Work on real-world projects that add value to your portfolio. Get hands-on experience with current industry tools and technologies.</p>
+                </div>
+
+                <!-- Job-Ready Curriculum -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-graduation-cap text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Job-Ready Curriculum</h3>
+                    <p class="text-gray-600">Our curriculum is designed to meet industry demands, ensuring you're prepared for real job opportunities upon completion.</p>
+                </div>
+
+                <!-- Small Batch Size -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-users text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Small Batch Size</h3>
+                    <p class="text-gray-600">Limited students per batch ensures personalized attention and better learning outcomes for every student.</p>
+                </div>
+
+                <!-- Flexible Schedule -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-clock text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Flexible Schedule</h3>
+                    <p class="text-gray-600">Choose from weekend batches or weekday evening sessions. Learn at your convenience without compromising your current commitments.</p>
+                </div>
+
+                <!-- Placement Assistance -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-handshake text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Placement Assistance</h3>
+                    <p class="text-gray-600">Get support in resume building, interview preparation, and job placement through our network of industry connections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 md:py-20 bg-primary/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold text-primary mb-2">500+</div>
+                    <div class="text-gray-600">Students Trained</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary mb-2">50+</div>
+                    <div class="text-gray-600">Expert Mentors</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary mb-2">100+</div>
+                    <div class="text-gray-600">Companies Hiring</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-primary mb-2">90%</div>
+                    <div class="text-gray-600">Placement Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Start Your Tech Journey?</h2>
+            <a href="enroll.html" class="inline-block bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-primary/90 transition duration-300">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold text-primary mb-4">InsTuite</h3>
+                    <p class="text-gray-400">Empowering careers through expert-led tech education.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="why-choose-us.html" class="text-gray-400 hover:text-white">Why Choose Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="enroll.html" class="text-gray-400 hover:text-white">Enroll Now</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fas fa-envelope mr-2"></i> info@instuite.com</li>
+                        <li class="text-gray-400"><i class="fas fa-phone mr-2"></i> +1 234 567 8900</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 InsTuite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
